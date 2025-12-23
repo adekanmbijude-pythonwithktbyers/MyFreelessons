@@ -15,4 +15,9 @@ print(type(fields))
 print(len(fields))
 print(fields[0]) #This will print the first field
 print(fields[-1]) #This will print the last field
-
+fields.remove('(min)')
+find_hardware_index = fields.index('Hardware')
+print(find_hardware_index)
+fields[find_hardware_index] = "Hardware_Addr"
+fields.remove("Addr")
+print(fields)
