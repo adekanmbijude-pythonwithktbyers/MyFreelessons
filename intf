@@ -1,0 +1,24 @@
+#!/usr/bin/env python
+intf = "GigabitEthernet 10.0.2.15 YES DHCP up up"
+intf_fields = intf.split()
+
+#Create variables from the corresponding fields - example intf_name will be in the intf_fields list index 0
+intf_name = intf_fields[0]        
+intf_ip_addr = intf_fields[1]    
+intf_status = intf_fields[4]
+intf_protocol = intf_fields[5]
+
+# Print out each variable and its value
+#print("Interface              IP-Address      Status          Protocol")
+#print(f"{intf_name:20} {intf_ip_addr:20} {intf_status:20} {intf_protocol:20}")
+
+print(f"Interface              IP-Address      Status          Protocol\n"
+      f"{intf_name:20} {intf_ip_addr:20} {intf_status:20} {intf_protocol:20}")
+
+# Create booleans indicating if both are 'up'
+status_is_up = intf_status == "up"
+protocol_is_up = intf_protocol == "up"
+
+# Print the booleans
+print("Status is up:", status_is_up)
+print("Protocol is up:", protocol_is_up)
