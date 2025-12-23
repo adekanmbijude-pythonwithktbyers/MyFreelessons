@@ -1,0 +1,9 @@
+Protocol  Address          Age (min)  Hardware Addr   Type   Interface
+Internet  10.1.1.1                -   0050.56bb.e2e9  ARPA   GigabitEthernet0/0
+Internet  10.1.1.10              15   0050.56bb.1a2b  ARPA   GigabitEthernet0/0
+Internet  10.1.1.20              45   0050.56bb.3c4d  ARPA   GigabitEthernet0/0
+Internet  192.168.1.1             -   001a.2b3c.4d5e  ARPA   GigabitEthernet0/1
+Internet  192.168.1.50           10   001a.2b3c.5e6f  ARPA   GigabitEthernet0/1
+Internet  192.168.1.100          22   001a.2b3c.6f70  ARPA   GigabitEthernet0/1
+Internet  172.16.0.1              -   00d0.5678.9abc  ARPA   GigabitEthernet0/2
+Internet  172.16.0.25             5   00d0.5678.abcd  ARPA   GigabitEthernet0/2
